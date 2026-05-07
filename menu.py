@@ -27,10 +27,9 @@ def run(func):
 
         #Grayscale Data Module
         case 1:
-            print("\n======================\nGrayscale Data")
+            print("\n==========================================\nGrayscale Data")
             file = input("\nEnter the file name: ") 
             grayscale(file)
-            menu()
             
         # End program    
         case 0:
@@ -47,4 +46,5 @@ while running:
 Revision History:
 1.0 (2026-05-06) - Basic prompting, input exception handling, input validation.
 1.01 (2026-05-06) - Successfully calls external grayscale module, and quits upon user's request.
+1.02 (2026-05-07) - Minor modifications to the ASCII decorations, and removed uncessesary 'menu()' calls.
 """
